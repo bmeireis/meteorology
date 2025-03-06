@@ -3,37 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Meteo App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a City..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>12ºC</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/bmeireis" target="_blank">Bárbara Meireis</a>
-      code hosted on
-      <a href="https://github.com/bmeireis/meteorology" target="_blank"
-        >Github</a
-      >
-      and webseite hosted on
-      <a href="https://meteorology-app2995.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a City..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>12ºC</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/bmeireis" target="_blank"
+          >Bárbara Meireis</a
+        >
+        code hosted on
+        <a href="https://github.com/bmeireis/meteorology" target="_blank"
+          >Github</a
+        >
+        and webseite hosted on
+        <a href="https://meteorology-app2995.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
